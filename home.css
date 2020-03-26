@@ -1,0 +1,78 @@
+.home-welcome h3{
+
+    color:rgb(25, 125, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+   
+}
+.home-welcome h4{
+
+    color:rgb(25, 125, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+   
+}
+.top-category table th,td
+{
+/* border:1px solid; */
+}
+.top-category table img{width:130px;}
+.top-category table h2{
+    position: relative;
+    color:rgb(25, 125, 255);
+    top:-50px;
+    left:130px;
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.top-category table th a:hover{
+    text-shadow: 0px 0px 1px black;
+}
+.top-category table td 
+{
+    text-align:left;
+    padding-left:150px;
+}
+.top-category table td a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(25, 125, 255);
+    
+}
+.top-category table td a:hover{
+   text-shadow: 0px 0px 1px black;
+}
+.top-category table th {
+    padding-right:100px;
+    }
+.top-category table th a{
+text-decoration: none;
+}
+
+.title-category h1
+{
+    padding-left:50px;
+    color:red;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(25, 125, 255);
+    font-size: 21px;
+}
+.producatori
+{
+    margin-right:10px;
+}
+.producatori img{
+width:70px;
+border:1px solid;
+    
+}
+.producatori a:hover img{
+box-shadow: 0px 0px 5px gray;
+}
+.producatori li{
+    padding: 10px;
+  
+    display: inline-block;
+
+}

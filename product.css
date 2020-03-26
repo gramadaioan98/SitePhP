@@ -1,0 +1,92 @@
+.container-product
+{
+display:inline-block;
+width:250px;
+background-color: rgb(245, 230, 255);
+height:380px;
+margin:5px;
+position:relative;
+
+box-shadow: 2px 2px 10px gray;
+
+}
+.container-product-prim
+{
+margin:auto;
+
+width:800px;
+
+}
+.name{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+    height:25px;
+}
+.container-product .image img{
+
+    width:200px;
+    box-shadow:1px 1px 10px gray;
+    position:relative;
+    height: 200px;
+  top:20px;
+  
+}
+.container-product:hover 
+{
+box-shadow: 2px 2px 10px black;
+
+}
+.image
+{   
+height:250px;
+
+}
+.price
+{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    height:30px;
+    color:rgb(207, 24, 24);
+    text-shadow: 0px 0px 0px black;
+    position:relative;
+    top:-20px;
+  
+}
+.price h3{margin:0px;}
+.stock
+{
+    position:relative;
+    text-shadow: 1px 0px  black;
+    top:-10px;
+}
+.Buton{
+position:relative;
+top:-20px;
+}
+.Buton button{
+    background-image: linear-gradient(to right,rgb(151, 25, 255),rgb(196, 107, 255));
+color:white;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+border-top-left-radius:-14px;
+font-size:15px;
+height:25px;
+position:relative;
+top:-10px;
+border:1px solid gray;
+left:-9px;
+}
+.Buton img {
+    width:30px;
+    position: relative;
+    top:-1px;;
+
+}
+.Buton button b{
+    font-size: 10px;
+}
+
+
