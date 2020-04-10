@@ -21,4 +21,5 @@ if (isset($_POST['id'])) {
     
 }
 
+var_dump( $_POST);
 header('Location: shoppingCart.php');

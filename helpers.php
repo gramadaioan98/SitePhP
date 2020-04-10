@@ -31,7 +31,7 @@ function printAdmin()
 }
  function stock( $stock)
  {
-    if($stock===0)
+    if($stock==0)
     
     echo '<b style="color:red; font-family:Courier;font-size: 14px;"> Stoc indisponibil</b>';
     else
@@ -50,6 +50,9 @@ function printAdmin()
     return true;
     }
  }
+
+
+
  function getProductByID($products,$val)
  {
     foreach($products as $product)

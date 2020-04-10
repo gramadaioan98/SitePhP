@@ -121,9 +121,8 @@ body {
         box-shadow: 1px 1px 10px gray;
         margin:auto;
         background-color: rgb(247, 247, 247);
-       max-width: 1000px;
-        width:100%;
-      min-height: 500px;
+       width: 1000px;
+       
         
     }
     .container h7 {

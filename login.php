@@ -54,6 +54,8 @@ $_SESSION['cont']=$user['cont'];
 $_SESSION['email']=$user['email'];
 $_SESSION['sign']=1;
 $_SESSION['admin']=$user['admin'];
+$_SESSION['telefon']=$user['telefon'];
+$_SESSION['avatar']=$user['avatar'];
 header('Location:home.php');
 }
 echo '<pre>';

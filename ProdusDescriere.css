@@ -1,0 +1,303 @@
+.container {
+    min-height: 500px;
+    background-color: white;
+}
+
+.left {
+
+    width:500px;
+    position: relative;
+    height: 500px;
+    float:left;
+}
+
+.right {
+    width:480px;
+    position: relative;
+    height: 500px;
+    float:right;
+}
+.container .left h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    font-weight: 400;
+    color:rgb(40, 16, 59);
+    text-shadow: 0px 0px 0px black;
+}
+.container .left img {
+    width:350px; 
+    height:350px;
+}
+.hr1 {
+    width: 940px;
+    margin-left:25px;
+}
+.produsSucces h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size:20px;
+    color:rgb(202, 66, 41);
+    border:1px solid white;
+  text-align: center;
+  font-weight: 300;
+  margin-top: -15px;
+}
+.descriere {
+    padding:30px ;
+  
+    
+}
+.descriere p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.descriere h3 {
+    font-size:25px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:20px;
+}
+
+.right h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+    font-size:30px;
+    font-weight: 400;
+
+}
+.right .disponibil h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid;
+    width:150px;
+    text-align: center;
+    padding: 5px;
+    font-size:14px;
+    color:white;
+    background-color: green;
+    border-radius: 7px;
+}
+.right .indisponibil h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid;
+    width:150px;
+    text-align: center;
+    padding: 5px;
+    font-size:14px;
+    color:white;
+    background-color: red;
+    border-radius: 7px;
+}
+.right h2 {
+    color:red;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    border:1px solid white;
+}
+.right h5 {
+  
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.Buton button{
+    background-image: linear-gradient(to right,rgb(151, 25, 255),rgb(196, 107, 255));
+color:white;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+border-top-left-radius:-14px;
+cursor: pointer;
+
+padding: 10px;
+position:relative;
+top:-10px;
+border:1px solid gray;
+left:-9px;
+box-shadow: 0 4px rgb(206, 206, 206);
+}
+.Buton img {
+    width:60px;
+    position:relative;
+    top:10px;
+    left:2px;
+
+}
+.Buton button:hover  {
+    box-shadow: 0 2px rgb(145, 145, 145);
+   color:rgb(184, 184, 184);
+   transform: translateY(2px);
+}
+.Buton button b{
+    font-size: 15px;
+}
+
+.recenzii {
+
+    
+    margin-left:40px;
+    margin-right:40px;
+
+
+}
+.recenzii h3 {
+    font-size:25px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.AdaugaRecenzie h2 {
+    font-size:20px;
+    margin-left:100px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.AdaugaRecenzie {
+
+    margin-left:50px;
+    margin-right:50px;
+
+}
+
+.AdaugaRecenzie textarea {
+         resize: none;
+        width:500px;
+        height: 60px;
+        margin-left:100px;
+        border:2px solid rgb(98, 0, 255);
+  }
+  .AdaugaRecenzie button {
+
+   margin-left:100px;
+   margin-top:20px;
+   color:rgb(211, 211, 211);
+   background-image: linear-gradient(rgb(111, 0, 255), rgb(62, 146, 255));
+   border:0px solid;
+    padding:10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.AdaugaRecenzie button:hover {
+  
+    background-image: linear-gradient(rgb(169, 103, 255), rgb(118, 178, 255));
+    color:rgb(219, 219, 219);
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
+
+
+
+.AdaugaRecenzie h3 {
+    color:red;
+    font-size:15px;
+    margin-left:100px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AdaugaRecenzie h5 {
+    margin:3px;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    width:270px;
+    font-size:15px;
+
+    color:rgb(236, 255, 70);
+    text-shadow: 0px 0px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  .recenzie img {
+
+    width:60px;
+    height:60px;
+    border-radius:100px;
+    border:2px solid rgb(133, 1, 194);
+    margin-left:30px;
+    margin-top:30px;
+    float:left;
+  }
+ 
+
+  .recenzie {
+    height:150px;
+    border:2px solid;
+    border-color: red red purple purple;
+    
+  }
+  .recenzie h3 
+    {
+        margin:0px;
+        margin-top:-25px;
+        margin-left:250px;
+        margin-right:100px;
+        height:100px;
+
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        
+        font-size: 13px;
+    }
+    .recenzie h4 {
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:15px;
+        margin:0px;
+        margin-left:20px;
+        margin-top:10px;
+    }
+    .recenzie h5 {
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:15px;
+        margin:0px;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+
+
+    .img-rec img {
+        width:100px;        
+    }
+    .img-rec {
+        width:520px;
+
+        margin:auto;
+    }
+    .img-rec h1{
+        text-align: center;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:25px;
+    }
+
+    .star img {
+
+        width:40px;
+
+    }
+    .star {
+            width:230px;
+  
+    }  
+    .star2 img {
+
+        width:40px;
+        border-radius: 50px;
+        background-color: gray;
+    }
+    .star2 {
+            width:230px;
+  margin-lefT:100px;
+    }
+    .stea1:hover ,.stea2:hover,.stea3:hover,.stea4:hover ,.stea5:hover{
+        background-color: rgb(255, 238, 0);
+    }
+    .star2 a{
+        text-decoration: none;
+    }
+  
+
+  

@@ -1,0 +1,85 @@
+.block h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;  
+    color:rgb(110, 58, 179);
+    font-size: 20px;    
+    padding-left:100px;
+    padding-top:100px;
+   
+  
+display: inline-block;
+}
+
+.block 
+{    
+    width: 990px;
+    height: 200px;
+   
+}
+.produs {
+    width:900px;
+    bordeR:1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:2px solid;
+            border-color: rgb(111, 0, 255) rgb(111, 0, 255)rgb(0, 195, 255)rgb(62, 146, 255);
+            border-radius: 10px;
+}
+.produs img {
+
+    width:150px;
+  
+    margin:0px;
+    margin-left:100px;
+    border:2px solid;
+            border-color: rgb(111, 0, 255) rgb(111, 0, 255)rgb(0, 195, 255)rgb(62, 146, 255);
+}
+.container h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    color:rgb(110, 58, 179);
+    font-size: 17px;    
+    position: relative;
+    font-weight: 400;
+    top:-100px;
+    left:40px;
+    margin:0px;
+    display: inline-block;
+}
+.container h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color:rgb(110, 58, 179);
+    font-size: 15px;  
+    font-weight: 300;  
+    position: relative;
+    left:315px;
+    margin:-24px;
+    display: inline-block;
+}
+.container button{
+   
+    background-image: linear-gradient(rgb(111, 0, 255), rgb(62, 146, 255));
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left:0px;
+    margin-right:0px;
+    border:0px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+ a button:active {
+    background-color: #3e8e41;
+    background-image: linear-gradient(rgb(169, 103, 255), rgb(118, 178, 255));
+    color:rgb(219, 219, 219);
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }

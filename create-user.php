@@ -47,7 +47,7 @@ $email=$_POST['email'];
 $parola=$_POST['parola'];
 $admin=0;
 $hash=password_hash($parola,PASSWORD_BCRYPT);
-$query="INSERT INTO users (id,nume,prenume,cont,email,parola,admin) VALUE  (NULL,'{$nume}','{$prenume}','{$cont}','{$email}','{$hash}',0)";
+$query="INSERT INTO users (id,nume,prenume,cont,email,parola,admin,avatar) VALUE  (NULL,'{$nume}','{$prenume}','{$cont}','{$email}','{$hash}',0,'upload/avatar.jpg')";
 $conn->exec($query);
 header('Location:signup.php');
 ?>

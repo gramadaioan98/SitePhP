@@ -32,7 +32,7 @@ if(isset($_POST['but_upload'])){
     $image_base64 = base64_encode(file_get_contents($_FILES['file']['tmp_name']) );
     $image = 'data:image/'.$imageFileType.';base64,'.$image_base64;
     // Insert record
-    $query = "INSERT INTO products (nameP,price,image,stock) VALUE('$_POST[nameP]','$_POST[price]','$target_file','$_POST[stock]')";
+    $query = "INSERT INTO products (nameP,price,image,stock,descriere) VALUE('$_POST[nameP]','$_POST[price]','$target_file','$_POST[stock]','$_POST[descriere]')";
  
     $conn->exec($query);
     // Upload file
@@ -51,7 +51,7 @@ body{
   border:10px solid rgb(174, 73, 214);
   width:280px;
   border-radius:20px;
-  height:390px;
+
   background-color:rgb(237, 223, 235);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -70,6 +70,7 @@ body{
     padding:0px;
     font-size:15px;
   }
+  .container form textarea {background:rgb(148, 118, 144); color:white;}
 </style>
 <center>
 <div class="container">
@@ -84,9 +85,11 @@ body{
   
   <h3> Stock:</h3>
   <input type="text" value="" name="stock"/>  <br><br><br>
+  <textarea   name="descriere" rows="4" cols="31"> Descrierea produsului</textarea>
+
   <input type='submit' value='Save name' name='but_upload'> <br>
   <input type='reset' value='Reset' > <br>
 
-</form>
+</form><br>
 </div >
 </center>

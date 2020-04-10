@@ -1,0 +1,23 @@
+.container-product {
+
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    width:300px;
+    margin-top:20px;
+    display: inline-block;
+    margin-left:20px;
+}
+.image img{
+
+    
+    margin-top:10px;
+    width:250px;
+    height:250px;
+}
+.container-product a {
+    text-decoration: none;
+}
+.Buton img {
+
+    width:50px;
+}

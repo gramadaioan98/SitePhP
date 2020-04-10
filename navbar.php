@@ -41,14 +41,19 @@
     <div class="navbar-right">
     <b> 
     <ul>
-   
+                    
+
     <li class="navbar-item" id="Logout"><a href="logout.php"> Logout </a></li>
     <li class="navbar-item"><a href="home.php"> Home </li></a>
    <li class="navbar-item"> <a id="asd" href="shoppingCart.php"> Shopping Cart </a></li>
-    <li class="navbar-item"><a href="contact.php"> Contacts </a></li>
+    <li class="navbar-item"><a href="contact.php"> Cont </a></li>
     <li class="navbar-item"><a href="Market.php"> Market </a> </li>
     <li class="navbar-item" id="SignUp"><a href="signup.php"> Sign Up </a> </li>
-    
+    <?php if($_SESSION['admin']==1)
+                    { ?>
+                   <li class="navbar-item"><a href="admin.php"> Admin </a></li>
+                        <?php  }
+                    ?>
 
     </ul></b>
     <li class="navbar-item2" id="Logout"><a href="logout.php"> <img src="images/navbar/Logout.png"> </a></li>

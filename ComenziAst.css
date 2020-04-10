@@ -1,0 +1,52 @@
+.comanda {
+
+  border:1px solid;
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px ;
+  display: inline-block;
+  margin-left:60px;
+  min-height: 250px;
+}
+
+.comanda h2{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+.comanda b{
+    font-weight: 600;
+}
+
+.comanda a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+     margin-left: 20px;
+   position: relative;
+    left:100px;
+    top:10px;
+    border:5px solid rgb(132, 0, 255);
+    background-color: rgb(132, 0, 255);
+    color:white;
+    padding:8px;
+  
+  }
+  .comanda a:hover {
+    background-color: rgb(53, 0, 102);
+    border:5px solid rgb(255, 255, 255);
+  }
+  .comanda a.a1{
+    border:5px solid rgb(255, 32, 32);
+    background-color: rgb(255, 32, 32);
+
+  }
+  .comanda a.a1:hover {
+    background-color: rgb(163, 163, 163);
+    border:5px solid rgb(255, 255, 255);
+  }
